@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Teman_MySQL"
         android:usesCleartextTraffic="true">
-        <activity android:name=".TambahTeman"></activity>
+        <activity android:name=".edit_teman"></activity>
+        <activity android:name=".TambahTeman" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +20,8 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
 </manifest>
